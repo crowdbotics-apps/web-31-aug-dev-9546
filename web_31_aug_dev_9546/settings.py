@@ -47,6 +47,9 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "augapp",
     "homeonday",
+    "homeidkwhato",
+    "homemidelname",
+    "hwahawwaiapp",
 ]
 LOCAL_APPS = [
     "home",
