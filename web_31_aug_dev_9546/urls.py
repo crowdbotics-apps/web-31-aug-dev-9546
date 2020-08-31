@@ -36,6 +36,11 @@ urlpatterns = [
     path("api/v1/", include("homeidkwhato.api.v1.urls")),
     path("api/v1/", include("homemidelname.api.v1.urls")),
     path("api/v1/", include("hwahawwaiapp.api.v1.urls")),
+    path("augapp/", include("augapp.urls")),
+    path("homeidkwhato/", include("homeidkwhato.urls")),
+    path("homemidelname/", include("homemidelname.urls")),
+    path("homeonday/", include("homeonday.urls")),
+    path("hwahawwaiapp/", include("hwahawwaiapp.urls")),
 ]
 
 admin.site.site_header = "web 31 aug"
